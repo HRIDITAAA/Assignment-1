@@ -111,6 +111,7 @@ section {
     position: relative;
     margin: 7% 10%;
     background-color: rgb(239, 228, 229);
+    border-radius: 15px;
 }
 
 .add-2 {
@@ -120,5 +121,101 @@ section {
     height: 40px;
     width: 120px;
     border-radius: 5px;
+    border: none;
+}
 
+.add-3 {
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 100px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner-3 {
+    height: auto;
+    position: relative;
+    margin: 7% 10%;
+    border-radius: 15px;
+}
+
+.our-3 {
+    font-size: 20px;
+    color: #FF0000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.our-5 {
+    font-size: 40px;
+    color: #FF0000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.our-4 {
+    text-align: start;
+}
+
+.flex-container-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.picture>div {
+
+    margin: 20px 0;
+
+}
+
+.our-6 {
+    text-align: center;
+    background-color: rgb(239, 228, 229);
+    padding: 100px;
+}
+
+.our-7 {
+    color: white;
+    background-color: #070211;
+    padding: 80px;
+}
+
+.flex-container-3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.our-8 {
+    text-align: center;
+    padding: 20px;
+}
+
+.holiday-1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.holiday-2 {
+    font-size: 45px;
+}
+
+.holidays {
+    color: red;
+}
+
+#gifts-box {
+    border-color: black;
+}
+
+.btn-con {
+    height: 40px;
+    width: 200px;
+    border: none;
+    border-radius: 5%;
+    text-align: start;
+    color: grey;
 }
