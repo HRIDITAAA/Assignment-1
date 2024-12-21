@@ -186,7 +186,8 @@ section {
 
 .flex-container-3 {
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+
 }
 
 .our-8 {
@@ -205,10 +206,6 @@ section {
 
 .holidays {
     color: red;
-}
-
-#gifts-box {
-    border-color: black;
 }
 
 .btn-con {
