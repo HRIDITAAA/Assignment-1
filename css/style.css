@@ -78,7 +78,6 @@ section {
     margin: 2% 10%;
 }
 
-
 .vec {
     color: #FFFFFF;
     font-size: 55px;
@@ -160,17 +159,44 @@ section {
     text-align: start;
 }
 
+.gift {
+    position: absolute;
+    bottom: 80px;
+    left: 100px;
+    background-color: inherit;
+}
+
+.gift img {
+    width: 80%;
+}
+
+.coming {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.group-photo {
+    border: 8px solid red;
+    padding: 20px;
+    border-radius: 50%;
+}
+
 .flex-container-1 {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.offer {
+    position: absolute;
+    top: 50px;
+    right: 260px;
+    z-index: 10;
 }
 
 
-.picture>div {
 
-    margin: 20px 0;
-
-}
 
 .our-6 {
     text-align: center;
