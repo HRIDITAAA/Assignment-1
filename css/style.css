@@ -6,6 +6,7 @@
 
 .banner img {
     width: 100%;
+    z-index: -1000;
 
 }
 
@@ -241,4 +242,10 @@ section {
     border-radius: 5%;
     text-align: start;
     color: grey;
+}
+
+.flex-container-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
